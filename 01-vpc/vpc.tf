@@ -1,4 +1,4 @@
-module "vpc_test" {
+module "vpc" {
     #source = "../terraform-aws-vpc/"
     source = "git::https://github.com/kaminenileela/terraform-aws-vpc.git"
     project_name = var.project_name

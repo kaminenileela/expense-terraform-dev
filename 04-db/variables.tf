@@ -17,8 +17,6 @@ variable "common_tags" {
 
 }
 
-
-variable "bastion_tags" {
-    default = {}
-   
+variable "zone_name" {
+  default = "learningdevopsaws.online"
 }
