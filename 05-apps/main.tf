@@ -89,6 +89,7 @@ module "records" {
       ttl     = 1
       records = [
         module.frontend.public_ip
+        #module.frontend.private_ip # we are connecting from ansible to frontend server so giving private ip rather than public ip or change in invventory for frontend as frontend.<zone name>
       ]
       allow_overwrite = true
     }
