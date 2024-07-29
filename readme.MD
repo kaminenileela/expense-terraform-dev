@@ -3,7 +3,7 @@
 
 ![alt text](Images/expenses-dev-terraform.jpg)
 
-If we are using modules, for any changes done original module code we need to do
+If we are using modules, for any changes done original module code we need to do(i.e to get updates when module developers updates it)
 * terraform init -upgrade 
 
 To run all modules sequentially
